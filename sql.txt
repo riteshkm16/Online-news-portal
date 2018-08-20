@@ -1,0 +1,115 @@
+create database news;
+use news;
+
+create table subscription
+
+(
+
+semail varchar(20) not null,
+
+sname varchar(20) not null,
+
+sid int 
+
+);
+
+
+desc subscription;
+
+insert into subscription values("ram@ram.com","ram",1);
+
+insert into subscription values("nis@ram.com","nis",1);
+
+select * from subscription;
+
+
+
+
+
+create table cor
+
+(
+cid varchar(10) primary key,
+
+cname varchar(20) not null,
+
+cemail varchar(20) not null unique,
+
+cmobile varchar(12) not null unique,
+
+camobile varchar(12) ,
+
+caddress varchar(25),
+
+cjoindate varchar(10),
+
+ccount int,
+
+cpass varchar(10) not null
+
+);
+
+
+desc cor;
+
+insert into cor value
+("001","test","test@test.com","9999999999","1111111111","test room no - 111,test","12/12/12",'0',"1234");
+
+select * from cor;
+
+desc cor;
+
+
+create table ne
+
+(
+
+neid varchar(10) primary key ,
+
+netitle varchar(50) not null,
+
+necontent varchar(250) not null,
+
+nelink varchar(30) ,
+
+netna int ,
+
+netni int ,
+
+netns int ,
+
+netne int ,
+
+netno int ,
+
+neremark varchar(20),
+
+neauth varchar(20),
+
+nefirp varchar(25),
+
+nelupd varchar(25)
+
+
+)
+;
+
+desc ne;
+
+insert into ne values
+
+("00","test title","helllo this is test we wwill be back soon...................................   bybyby thannx for visit"
+,"kkk.jpg",'1','1','1','1','1',"test remark","tes1","12/12/20171325","12/12/20171326"
+);
+
+select * from ne;
+
+
+
+
+
+
+
+
+
+
