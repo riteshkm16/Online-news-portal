@@ -1,7 +1,7 @@
 <%-- 
     Document   : logout
     Created on : Dec 17, 2017, 6:57:43 PM
-    Author     : Shikha
+    Author     : riteshkm16@gmail.com
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
