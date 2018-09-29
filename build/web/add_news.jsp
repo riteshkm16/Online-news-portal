@@ -1,7 +1,7 @@
 <%-- 
-    Document   : add_news
-    Created on : Dec 12, 2017, 3:35:28 PM
-    Author     : Shikha
+  
+   
+
 --%>
 
 <%@page import="java.lang.String"%>
