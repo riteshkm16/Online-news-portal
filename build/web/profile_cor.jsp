@@ -1,7 +1,7 @@
 <%-- 
     Document   : profile_cor
     Created on : Dec 17, 2017, 6:58:01 PM
-    Author     : Shikha
+    Author     : riteshkm16@gmail.com
 --%>
 
 <%@page import="java.sql.*"%>
