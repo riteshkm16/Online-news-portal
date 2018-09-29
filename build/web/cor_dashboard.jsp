@@ -1,7 +1,7 @@
 <%-- 
     Document   : cor_dashboard
     Created on : Dec 12, 2017, 11:57:05 AM
-    Author     : Shikha
+    Author     : riteshkm16@gmail.com
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
